@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="ajedrez" size="2.000000 1.125000"/>
+        <ImageTarget name="CALEB2" size="2.000000 1.228792"/>
+        <ImageTarget name="CALEB1" size="2.000000 1.000000"/>
+        <ImageTarget name="cyberpunk-2077-logo-3184" size="2.000000 1.125000"/>
+        <ImageTarget name="alien" size="2.000000 1.125000"/>
+        <ImageTarget name="cuboid115.Top" size="10.000000 10.000000"/>
+        <ImageTarget name="cuboid115.Front" size="10.000000 10.000000"/>
+        <ImageTarget name="cuboid115.Left" size="10.000000 10.000000"/>
+        <ImageTarget name="cuboid115.Bottom" size="10.000000 10.000000"/>
+        <ImageTarget name="cuboid115.Right" size="10.000000 10.000000"/>
+        <ImageTarget name="cuboid115.Back" size="10.000000 10.000000"/>
+        <MultiTarget name="cuboid115">
+            <Part name="cuboid115.Left" translation="-5.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="cuboid115.Right" translation="5.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="cuboid115.Front" translation="0 0 5.0" rotation="AD: 1 0 0 0"/>
+            <Part name="cuboid115.Back" translation="0 0 -5.0" rotation="AD: 0 1 0 180"/>
+            <Part name="cuboid115.Top" translation="0 5.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="cuboid115.Bottom" translation="0 -5.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
